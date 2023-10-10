@@ -1,0 +1,53 @@
+.container{
+    width: 1440px;
+    background-color: #F4F4F4;
+}
+.greentours{
+    color: #1AC74A;
+    font-size: 32px;
+
+}
+.center{
+    display: flex;
+    
+}
+.text{
+    width: 50%;
+}
+.cards-container{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+
+}
+.pic{
+    width: 50%;
+    width: 720px;
+    height: 1024px;
+}
+.card{
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+    height: 85px;
+    border: 1px solid #101010;
+    border-radius: 8px;
+    padding: 20px;
+}
+.card:hover{
+    color: white;
+    background-color: #1AC74A;
+}
+.card img{
+    position: absolute;
+    top:100px;
+    right: 0;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 1s ease-in-out;
+}
+#day1:hover #square{
+    opacity: 1;
+    visibility: visible;
+}
+

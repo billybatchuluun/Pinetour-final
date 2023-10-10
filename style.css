@@ -1,0 +1,202 @@
+*{
+    margin: 0;
+}
+.container{
+    width: 1440px;
+    background-color: #F4F4F4;
+}
+header{
+    display: flex;
+    background-color: #101010;
+    justify-content: center;
+    height: 58px;
+}
+h1{
+    font-size: 80px;
+    font-family: Montserrat;
+    text-align: center;
+    font-style: normal;
+    width: 401px;
+    height: 196px;
+    color: #303030;
+}
+.title{
+    display: flex;
+    justify-content: center;
+    margin-top: 138px;
+}
+.pics{
+    display: flex;
+    gap:68px;
+    justify-content: center;
+    margin-top: 40px;
+}
+.greentours{
+    color: #1AC74A;
+    font-size: 32px;
+
+}
+.center{
+    display: flex;
+    margin-top: 250px;
+    margin-left: 120px;
+}
+.text{
+    width: 50%;
+}
+.days{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+
+}
+.pic{
+    width: 50%;
+    width: 720px;
+    height: 1024px;
+}
+h2{
+    font-size: 48px;
+    font-family: Montserrat;
+    
+    font-style: normal;
+    width: 401px;
+    height: 196px;
+    color: #303030;
+
+}
+.day{
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+    height: 85px;
+    border: 1px solid #101010;
+    border-radius: 8px;
+    padding: 20px;
+}
+h3{
+    font-size: 18px;
+    font-family: montserrat;
+    color: #303030;
+}
+h4{
+    font-size: 16px;
+    font-family: montserrat;
+    color: #303030;
+
+}
+h5{
+    font-size: 12px;
+    font-family: montserrat;
+    color: #777;
+
+}
+.text-1{
+    display: flex;
+    /* flex-direction: column; */
+    /* align-items: center; */
+   
+}
+.text-2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+}
+h6{
+    font-size: 32px;
+    font-family: montserrat;
+    color: #303030; 
+}
+.text_little{
+    font-size: 20px;
+    font-family: montserrat;
+    color: #777;
+    margin-top: 40px;
+    margin-bottom: 80px;
+    font-weight: 500;
+}
+.text_side_1{
+    width: 308px;
+    height: 373px;
+    background-color: #FFF;
+    padding: 20px;
+}
+.text_side_2{
+    width: 308px;
+    height: 373px;
+    background-color: #FFF;
+    padding: 20px;
+}
+.text_sides{
+    display: flex;
+    gap:40px;
+
+}
+.centerlast_text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 120px;
+}
+.bottom{
+    display: flex;
+    background-color: #101010;
+    justify-content: center;
+    height: 183px;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin-top: 130px;
+}
+.btn{
+    background-color: #18BA51;
+    padding: 10px 20px;
+    border-radius: 4px;
+}
+.btn_1{
+    width: 167px;
+    height: 44px;
+    color: white;
+    background-color: #303030;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.foot{
+    display: flex;
+    justify-content: space-between;
+    
+}
+footer{
+    background-color: #101010;
+    height: 228px;
+    border-top: 1px solid #1AC74A;
+}
+.foot_2{
+    display: flex;
+    gap: 20px;
+}
+.foot{
+    padding: 80px 120px;
+}
+
+.day:hover{
+    background-color: black;
+    
+}
+
+.day:hover h3{
+    color: white;
+}
+
+.day:hover h4{
+    color: white;
+}
+.day:hover h5{
+    color: white;
+}
+    
+   
+    

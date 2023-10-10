@@ -1,0 +1,261 @@
+:root{
+    --header-height:58px;
+    --container-max-width:1440px;
+    --section-max-width:1198px;
+}
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    color: #303030;
+    background-color: #F4F4F4;
+}
+header{
+    background-color: black;
+    height: var(--header-height);
+    padding: 8px 0;
+}
+main{
+    max-width: var(--container-max-width);
+    margin: auto;
+}
+h1{
+    font-family: Montserrat; 
+    text-align: center;
+    font-size: 80px;
+    font-weight: 800;
+}
+h2{
+    font-family: Montserrat;
+    font-size:48px;
+    font-weight: 700;
+}
+h5{
+    color: #1AC74A;
+    font-family: Nico Moji;
+    font-size:32px;
+    font-weight: 400;
+}
+section{
+    max-width: var(--section-max-width);
+    margin: auto;
+    background-color: #F4F4F4;
+}
+section:first-child{
+    height: calc(100vh-var(--header-height));
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+section:nth-child(2){
+    display: flex;
+    gap: 200px;
+    justify-content: flex-start;
+    position: relative;
+    min-height: 100vh;
+}
+section:nth-child(2)>div{
+    display: flex;
+    flex-direction: column;
+    gap: 120px;
+}
+h5{
+    margin: 0;
+}
+article{
+    margin-top: 100px;
+}
+.images-container{
+    display: flex;
+    gap:66px;
+}
+#tour-logo{
+    display: block;
+    margin: auto;
+}
+.card{
+    display: flex;
+    padding: 20px;
+    border: solid 1px black;
+    border-radius: 8px;
+    justify-content: space-between;
+    width: 400px;
+    margin-bottom: 20px;
+}
+.card p{
+    margin: 0;
+}
+.card>div{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.card>div>p:last-child{
+    font-family: none;
+    color: #777;
+    text-align: end;
+}
+.card:hover{
+    color: #D9D9D9;
+    background-color: black;
+}
+
+
+.card img {
+    position: absolute;
+    top: 200px;
+    right: 0;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 1s ease-in-out;
+}
+
+#day1:hover #square {
+    opacity: 1;
+    visibility: visible;
+}
+#day2:hover #monastery {
+    opacity: 1;
+    visibility: visible;
+}
+#day3:hover #tsagaanlake {
+    opacity: 1;
+    visibility: visible;
+}
+#day4:hover #khorgo {
+    opacity: 1;
+    visibility: visible;
+}
+#day5:hover #lake {
+    opacity: 1;
+    visibility: visible;
+}
+#day6:hover #square {
+    opacity: 1;
+    visibility: visible;
+}
+
+.Pricing{
+  
+    text-align: center;
+}
+.sides{
+    display: flex;
+    gap:40px;
+    justify-content: center;
+}
+.side-1, .side-2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 308px;
+    height: 373px;
+    background-color: #FFF;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.side-1{
+    border: #1AC74A 1px solid;
+}
+h6{
+    color: #303030;
+    font-family: Montserrat;
+    font-size:32px;
+    font-weight: 700;
+    margin: 0;
+}
+.text-small{
+    margin-top: 40px;
+    color: #777;
+    font-size: 20px;
+
+}
+
+.cards-container{
+    gap: 20px;
+}
+.bottom{
+    background-color: #171717;
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+    justify-content: center;
+    padding: 40px 0;
+    
+}
+.btn{
+    background-color: #18BA51;
+    padding: 10px 20px;
+    border-radius: 4px;
+    width: 130px;
+    height: 44px;
+    margin-top: 20px;
+   
+}
+.btn_1{
+    width: 167px;
+    height: 44px;
+    color: white;
+    background-color: #303030;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.foot{
+    display: flex;
+    justify-content: space-between;
+    
+}
+footer{
+    height: 420px;
+    margin-top: 150px;
+}
+.foot_2{
+    display: flex;
+    background-color: #101010;
+    gap: 20px;
+}
+.foot{
+    border-top: 1px solid #1AC74A;
+    padding: 80px 120px;
+    background-color: #101010;
+    align-items: center;
+
+}
+.logoend{
+    width: 81px;
+    height: 68px;
+    font-size: 28px;
+    font-family: Montserra;
+    color: #FFF;
+}
+#img_1{
+    transition: transform .5s;
+}
+#img_1:hover{
+    transform: scale(1.05);
+
+}
+li:hover{
+    color:#18BA51;
+    font-size: 23px;
+}
+.btn:hover{
+    background-color: greenyellow;
+}
+.btn_1:hover{
+    background-color: blue;
+}
+h6:hover{
+    color:#18BA51;
+}
+
+    
+
+    
+
+
